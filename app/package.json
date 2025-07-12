@@ -1,11 +1,11 @@
 {
-    "name": "mocha-watch-mcve",
-    "dependencies": {
-        "mocha": "11.2.2"
-    },
-    "scripts": {
-        "test:base": "mocha --watch file.spec.js",
-        "test:watch:absolute": "npm run test:base -- --watch-files=$(realpath internal-dep.js)",
-        "test:watch:parent": "npm run test:base -- --watch-files=$(realpath ../dependency/dep.js)"
-    }
+  "name": "mocha-watch-mcve",
+  "dependencies": {
+    "mocha": "11.7.1"
+  },
+  "scripts": {
+    "test:base": "mocha --watch file.spec.js",
+    "test:watch:absolute": "npm run test:base -- --watch-files=C:\\Users\\markw\\my-stuff\\mocha-stuff\\mocha-issue-5355\\app\\internal-dep.js",
+    "test:watch:parent": "npm run test:base -- --watch-files=C:\\Users\\markw\\my-stuff\\mocha-stuff\\mocha-issue-5355\\dependency\\dep.js"
+  }
 }
