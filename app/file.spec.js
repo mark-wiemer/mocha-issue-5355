@@ -1,1 +1,1 @@
-it.skip('something', () => {})
+it.skip("something", () => {});
